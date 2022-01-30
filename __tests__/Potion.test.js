@@ -1,3 +1,4 @@
+const { jest } = require('@jest/globals');
 const Potion = require('../lib/Potion.js');
 
 test('creates a random potion object', () => {
